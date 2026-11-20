@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# PyCharm
+.idea/
+
+# Reports generated locally
+report.html
+report.xml
+allure-results/
+allure-report/
+
+# Screenshots generated during tests
+screenshots/
+ScreenShots/
+
+# Sensitive files
+.env
+.env.*
+!.env.example
+
+# Operating system
+.DS_Store
+Thumbs.db
